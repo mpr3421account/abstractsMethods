@@ -21,7 +21,7 @@ namespace abstractsMethods.Entities
 
         public override double Area()
         {
-            throw new NotImplementedException();
+            return Width * Height;
         }
     }
 }
